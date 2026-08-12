@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UFT-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href=style.css>
+        <title>Darts Rating Chacker</title>
+    </head>
+    <body>
+
+        <img src="hero.png" class="hero-image">
+    <div class="checker">
+
+        <p class="stat-note">DARTSLIVE [80% STATS] 換算</p>
+
+        <p>01 STATS</p>
+        <input type="number" 
+               id="zeroOneScore" 
+               min="0"
+               max="180"
+               step="0.01">
+
+        <p>CRICKET STATS</p>
+        <input type="number" 
+               id="cricketScore" 
+               min="0"
+               max="9"
+               step="0.01">
+
+        <button id="checkButton">判定</button>
+
+        <h2>結果</h2>
+
+        <h1 id="totalResult"></h1>
+
+        <p id="flightResult"></p>
+
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+    </body>
+</html>
