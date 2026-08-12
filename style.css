@@ -14,10 +14,10 @@ body {
 }
 
 .checker {
-    width: 90%;
+    width: 92%;
     max-width: 400px;
-    margin: 40px auto;
-    padding: 30px;
+    margin: 20px auto;
+    padding: 20px;
     background-color: #1c1c1c;
     border-radius: 15px;
     box-sizing: border-box;
@@ -85,13 +85,15 @@ body {
     }
 
     .checker {
-        width: 92%;
-        margin: 20px auto;
+        width: 100%;
+        max-width: none;
+        margin: 0;
         padding: 20px;
+        border-radiud
     }
 
     .checker p {
-        font-size: 12px 0 8px;
+        margin: 12px 0 8px;
     }
     #totalResult {
         font-size: 34px;
